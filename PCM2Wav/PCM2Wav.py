@@ -24,7 +24,7 @@ class PCM2Wav(object):
     chunk_size = 256
 
     __formats = {1: 'c', 2: 'h'}
-    __sample_rates = 16000, 32000, 44100, 48000, 96000, 128000
+    __sample_rates = 16000, 32000, 44100, 48000, 88200, 96000, 128000, 176400, 192000, 352800, 384000
 
     def __init__(self, PCM_parser, csv_file, dst):
         """
